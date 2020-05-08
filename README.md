@@ -1,4 +1,4 @@
-# webrtc-react
+# WebRTC-React-Node
 
 ## Introduction
 This is a boilerplate to build a full stack video chat application using React, WebRTC, Node.js, Express and Webpack. It is also configured with webpack-dev-server, eslint, prettier and babel.
