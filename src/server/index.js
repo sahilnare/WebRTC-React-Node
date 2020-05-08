@@ -1,9 +1,13 @@
 const express = require('express');
-const os = require('os');
-
+const http = require('http');
+const socket = require('./lib/socket');
+const PORT = process.env.PORT || 8080;
 const app = express();
+const server = http.createServer(app);
 
 app.use(express.static('dist'));
-app.get('/api/getUsername', (req, res) => res.send({ username: os.userInfo().username }));
 
-app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));
+server.listen(process.env.PORT || 8080, () => {
+  socket(server);
+  console.log('Server is listening at :', PORT);
+});

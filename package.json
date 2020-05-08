@@ -1,7 +1,7 @@
 {
   "name": "simple-react-full-stack",
   "version": "1.0.0",
-  "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack.",
+  "description": "Video Chat Application made using ReactJS, NodeJS, ExpressJS and WebRTC.",
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -10,13 +10,19 @@
     "server": "nodemon src/server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Sandeep Raveesh",
+  "author": "Sahil Nare",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
     "express": "^4.16.3",
+    "lodash": "^4.17.15",
+    "prop-types": "^15.7.2",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
