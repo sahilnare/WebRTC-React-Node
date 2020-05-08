@@ -1,5 +1,7 @@
 # WebRTC-React-Node
 
+Try it here: https://fsociety-chat.herokuapp.com/
+
 ## Introduction
 This is a boilerplate to build a full stack video chat application using React, WebRTC, Node.js, Express and Webpack. It is also configured with webpack-dev-server, eslint, prettier and babel.
 
