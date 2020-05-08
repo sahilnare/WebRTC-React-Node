@@ -45,7 +45,7 @@ function CallWindow({ peerSrc, localSrc, config, mediaDevice, status, endCall })
         <button
           key="btnVideo"
           type="button"
-          className={getButtonClass('fa-video-camera', video)}
+          className={getButtonClass('fas fa-video', video)}
           onClick={() => toggleMediaDevice('video')}
         />
         <button
