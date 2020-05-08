@@ -15,7 +15,7 @@ In the production mode, we will have only 1 server running. All the client side 
 
 ```bash
 # Clone the repository
-git clone https://github.com/crsandeep/simple-react-full-stack
+https://github.com/sahilnare/WebRTC-React-Node.git
 
 # Go inside the directory
 cd webrtc-react
