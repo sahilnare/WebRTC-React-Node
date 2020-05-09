@@ -1,12 +1,17 @@
 
+
 body {
-  background: #000000;
+  background: rgba(0, 0, 0, 0.6);
   padding: 0px 20px 20px 20px;
   min-height: 100vh;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: 0.5px;
 }
 
-html, body {
-	color: #FFFFFF;
+html {
+  background: url("../assets/hacker.png") center no-repeat fixed;
+  color: #FFFFFF;
 	font-size: 14px;
 	letter-spacing: 0.5px;
 }
@@ -173,6 +178,26 @@ input {
 .main-window {
 	padding-top: 80px;
 	font-size: 1.75em;
+}
+
+.main-window h1 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.main-window h3 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.main-window h4 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.main-window .call-section {
+  text-align: center;
+  margin: 20px auto;
 }
 
 .main-window .btn-action {

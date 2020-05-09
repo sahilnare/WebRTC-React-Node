@@ -16,8 +16,9 @@ function MainWindow({ startCall, clientId }) {
   return (
     <div className="container main-window">
       <div>
+        <h1>Welcome to FSociety Chat!</h1>
         <h3>
-          Hi, your ID is
+          Your ID is
           <input
             type="text"
             className="txt-clientId"
@@ -25,9 +26,9 @@ function MainWindow({ startCall, clientId }) {
             readOnly
           />
         </h3>
-        <h4>Get started by calling a friend below</h4>
+        <h4>Enter the ID of your friend and give them a call</h4>
       </div>
-      <div>
+      <div className="call-section">
         <input
           type="text"
           className="txt-clientId"
