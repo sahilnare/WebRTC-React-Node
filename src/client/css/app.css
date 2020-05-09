@@ -51,6 +51,7 @@ input {
 	border-radius: 5px;
 	text-align: center;
 	display: none;
+  background-color: #000;
 }
 
 .call-modal.active {
